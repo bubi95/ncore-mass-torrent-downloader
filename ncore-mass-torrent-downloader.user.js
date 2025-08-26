@@ -63,7 +63,7 @@
     font: 12px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
     box-shadow: 0 8px 24px rgba(0,0,0,.35); width: 320px;`;
   panel.innerHTML = `
-    <div style="font-weight:700;margin-bottom:6px">Automata letöltés</div>
+    <div style="font-weight:700;margin-bottom:6px">nCore Mass Torrent Downloader by Bubi95</div>
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">
       <label>Max (≤ ${OLDAL_LIMIT})<br><input id="bubi_max" type="number" min="1" max="${OLDAL_LIMIT}" value="${clamp(settings.max,1,OLDAL_LIMIT)}" style="width:100%"></label>
       <label>Mód<br>
