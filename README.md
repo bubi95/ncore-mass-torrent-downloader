@@ -70,6 +70,10 @@ A tervezett fejlesztések, amiket szeretnék hozzáadni a jövőben:
 - 🔔 Böngésző értesítés a futás végén
 - ⌨️ Billentyűparancsok (pl. Alt+L = indítás, Alt+S = stop)
 - ⚙️ Beállítások import/export (mentés és megosztás JSON formátumban)
+- ♻️ Seed-kötelezett auto-visszaállítás  
+  Ha sok (pl. 200+) torrentet futtatsz és újratelepíted a géped, jelenleg egyesével kell újra letölteni a kötelező seed torrenteket.  
+  A terv, hogy a script a seed-kötelezett listából automatikusan **végigmegy az összes torrenten és letölti őket**, így nem kell manuálisan kattintgatni.
+
 
 Ha van további ötleted, nyiss egy [issue-t](../../issues), vagy jelezd!
 
