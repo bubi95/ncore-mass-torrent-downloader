@@ -5,19 +5,13 @@
 Ez egy Tampermonkey / Violentmonkey userscript, ami automatizálja az nCore keresési találatokból a torrent fájlok letöltését.
 
 ---
-## 🎬 Működés közben
-
-Egy rövid demó arról, hogyan néz ki használat közben:
-
-![Demo](./demo.gif)
-
 
 ## ✨ Funkciók
 
 - Automata letöltés akár **100 találatig**
 - **Módválasztó**:
-  - 🐢 Normál (7–18 mp)
-  - ⚡ Gyors (0.3–0.6 mp)
+  - 🐢 Normál (7–18 mp emberi késleltetés)
+  - ⚡ Gyors (0.3–0.6 mp várakozás)
   - 💀 Embertelen (szinte azonnal, várakozás nélkül)
 - Véletlen sorrend opció
 - Log + Auto-scroll kapcsoló
@@ -36,6 +30,25 @@ Egy rövid demó arról, hogyan néz ki használat közben:
 
 ---
 
+## 🌍 Böngésző kompatibilitás
+
+A script bármely modern böngészőben működik, ha van hozzá Tampermonkey vagy Violentmonkey telepítve:
+
+- ✅ Google Chrome / Edge / Brave / Opera (Chromium alapú)
+- ✅ Mozilla Firefox
+- ✅ Safari (Tampermonkey fizetős, Violentmonkey ingyen)
+- ✅ Android: Kiwi Browser (Tampermonkey támogatással)
+
+---
+
+## 🎬 Működés közben
+
+Egy rövid demó arról, hogyan néz ki használat közben:
+
+![Demo](./demo.gif)
+
+---
+
 ## 🧃 Támogatás
 
 Ez a projekt hobbiból készült, saját fejlődésem és szórakozásom érdekében.  
@@ -43,18 +56,22 @@ Ha tetszett, vagy hasznosnak találtad, és **meghívnál egy kávéra vagy egy 
 
 [![Buy Me a Coffee](https://img.buymeacoffee.com/button-api/?text=Kávéra%20meghívlak&emoji=☕&slug=bubi95&button_colour=BD5FFF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00)](https://buymeacoffee.com/bubi95)
 
-📲 Privátban Revoluton is támogathatsz – keress meg GitHubon vagy Discordon!
-
 Köszönöm előre is, minden támogatás nagy öröm! ❤️
 
 ---
 
-## 💡 Javaslatok, ötletek, bugok
+## 💡 Jövőbeli frissítések / Roadmap
 
-Van ötleted, mit lehetne még beépíteni?  
-Nyiss egy [GitHub issue-t](../../issues) vagy küldj egy pull requestet bátran!
+A tervezett fejlesztések, amiket szeretnék hozzáadni a jövőben:
 
-Ez egy nyílt forráskódú, közösségi projekt – ha van rá igény, bővíteni fogom a funkciókat.
+- 🎯 Automata szűrés találatoknál (pl. kategória, seed szám, release group alapján)
+- 🚫 Blacklist / Whitelist rendszer (kulcsszavak tiltása vagy engedélyezése)
+- 📂 Letöltési napló exportálása (TXT/CSV fájlba)
+- 🔔 Böngésző értesítés a futás végén
+- ⌨️ Billentyűparancsok (pl. Alt+L = indítás, Alt+S = stop)
+- ⚙️ Beállítások import/export (mentés és megosztás JSON formátumban)
+
+Ha van további ötleted, nyiss egy [issue-t](../../issues), vagy jelezd!
 
 ---
 
