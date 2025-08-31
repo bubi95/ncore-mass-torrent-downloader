@@ -1,5 +1,8 @@
 # nCore Mass Torrent Downloader
 
+![Version](https://img.shields.io/badge/version-1.0.1-blue)
+![Userscript](https://img.shields.io/badge/userscript-Tampermonkey%20%7C%20Violentmonkey-success)
+
 ⚠️ **Csak oktatási és személyes célokra!**
 
 Ez egy Tampermonkey / Violentmonkey userscript, ami automatizálja az nCore keresési találatokból a torrent fájlok letöltését.
